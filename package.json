@@ -3,6 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "An absurdly over-engineered decision engine for trivial dilemmas. DevFest Mumbai 2026 Dumb Ideas Challenge.",
+  "homepage": "https://overthinking-engine-beta.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodesbyRohit/overthinking-engine.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

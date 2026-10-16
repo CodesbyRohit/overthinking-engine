@@ -2,6 +2,9 @@
 
 > *"Because making a decision in 3 seconds is for amateurs."*
 
+**🔴 Live:** **[overthinking-engine-beta.vercel.app](https://overthinking-engine-beta.vercel.app/)** ·
+**[▶ Run the demo instantly](https://overthinking-engine-beta.vercel.app/?demo)**
+
 An absurdly over-engineered decision engine for the **DevFest Mumbai 2026 Dumb Ideas Challenge**. Type a trivial dilemma
 ("Should I order samosa or vada pav?") and a Council of twelve specialists, a decision tree with 100+ branches and a
 10,000-universe Monte Carlo simulation will deliberate on it before delivering a formal, sealed, and hilariously overconfident verdict.
@@ -9,7 +12,8 @@ An absurdly over-engineered decision engine for the **DevFest Mumbai 2026 Dumb I
 Everything runs in the browser. **No backend, no API keys, no paid services, no AI.** The twelve "specialists" are
 hand-written deterministic scoring functions. They are not LLM agents and the app never claims they are.
 
-**Try the demo:** open the app with `?demo` in the URL (e.g. `http://localhost:5173/?demo`) or press **▶ Demo mode**.
+**Try the demo:** open [the live app with `?demo`](https://overthinking-engine-beta.vercel.app/?demo) (or
+`http://localhost:5173/?demo` locally), or press **▶ Demo mode**.
 
 ---
 
@@ -41,7 +45,8 @@ npm run preview    # serve the production build at http://localhost:4173
 
 ## Deploying to Vercel
 
-The app is a static Vite site, so no server or environment variables are needed.
+The app is a static Vite site, so no server or environment variables are needed. Production deployment:
+**https://overthinking-engine-beta.vercel.app/**
 
 **From the dashboard:** push this repo to GitHub, choose *Add New → Project* in Vercel, import the repository and accept
 the detected settings (Framework **Vite**, build command `npm run build`, output directory `dist`). `vercel.json` pins these
